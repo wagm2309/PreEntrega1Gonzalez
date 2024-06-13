@@ -1,0 +1,34 @@
+.navBarContainer {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#fontNav {
+  color: white;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.cartContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.numberCart {
+  background-color: gray;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
